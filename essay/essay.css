@@ -15,11 +15,12 @@ html {
    border: 1px solid #fff;
 }
 .left-menu{
-   position: relative;
-  " display: inline-block;"
+   "position: relative;"
+   
    float: left;
 }
 .dropdown-menu{
+   text-align: center;
    display: none;
    position:absolute;
    background-color: #f9f9f9;
@@ -30,7 +31,7 @@ html {
 
 .dropdown-menu a {
    color: black;
-   padding: 25px 30px;
+   padding: 25px 25px;
    text-decoration: none;
    display: block;
 }
